@@ -47,6 +47,16 @@ button:hover {
   background: #dcdcdc;
 }
 
+.enter {
+  background: linear-gradient(45deg, #28a745, #34d058);
+  color: white;
+  grid-row: span 2;
+  font-weight: bold;
+}
+
+.enter:hover {
+  background: #218838;
+}
 .zero {
   grid-column: span 2;
 }
