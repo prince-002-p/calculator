@@ -49,7 +49,7 @@ button: hover {
 
 .enter {
   grid-column: 4;
-  grid-row: 3 / span 3;
+  grid-row: 3 / 6;  
   background: #28a745;
   color: white;
   font-weight: bold;
