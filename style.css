@@ -48,9 +48,9 @@ button: hover {
 }
 
 .enter {
-  grid-column: 4;      
-  grid-row: span 3;    
-  background: linear-gradient(45deg, #28a745, #34d058);
+  grid-column: 4;
+  grid-row: 3 / span 3;
+  background: #28a745;
   color: white;
   font-weight: bold;
   border-radius: 10px;
