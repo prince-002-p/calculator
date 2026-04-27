@@ -43,18 +43,20 @@ button {
   transition: 0.2s;
 }
 
-button:hover {
+button: hover {
   background: #dcdcdc;
 }
 
 .enter {
+  grid-column: 4;      
+  grid-row: span 3;    
   background: linear-gradient(45deg, #28a745, #34d058);
   color: white;
-  grid-row: span 2;
   font-weight: bold;
+  border-radius: 10px;
 }
 
-.enter:hover {
+.enter: hover {
   background: #218838;
 }
 .zero {
